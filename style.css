@@ -1,0 +1,63 @@
+.main
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/login/image/back.png.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.login
+{
+    width: 250px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.342);
+    margin: 20px;
+    padding-left: 25px;
+   margin-top: 250px;
+   margin-left: 500px;
+
+}
+.but
+{
+    width: 100px;
+    height: 25px;
+    background-color: green;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+h1
+{
+text-align: center;
+}
+#name
+{
+    margin-bottom: 20px;
+}
+
+#check
+{
+    margin-bottom: 20px;
+}
+.but:hover
+{
+    background-color: aqua;
+}
+.login input[type="password"], input[type="text"]
+{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+}
+.login img{
+    width: 100px;
+    margin-top: -200px;
+    margin-left: 75px;
+}
+.login input[type="button"]
+{
+    font-style: oblique;
+}

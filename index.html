@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/login/style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <form action="" method="post " class="login">
+            <img src="/login/image/contact-icon-png-1.png" alt="">
+            <h1>Login</h1>
+            <h3>Name</h3>
+            <input type="text" name="name" id="name" ,required>
+            <h3>Password</h3>
+    
+            <input type="password"  name="password" id="check" onclick="mYpass()" ,required ><br>
+            <input type="checkbox"  onclick="myClick()">show password
+            
+            <br>
+           <input type="button"  value="Login" name="button" onclick="rect()" class="but">
+        </form>
+    </div>
+    <script>
+         let input1=document.getElementById("name")
+    let input2=document.getElementById("check")
+    let output=document.getElementById("but")
+
+        function mYpass()
+        {
+          
+          alert ("password must have altest 8 character")
+            
+        }
+
+        function myClick()
+        { 
+            if(check.type=="password" )
+            {     
+                check.type="text";
+            }
+          
+        }
+   
+        function rect()
+        {
+
+      if((input1.value=="naveen"&& input2.value==12345678)||(input1.value=="prem"&& input2.value==12345678)||(input1.value=="niki"&& input2.value==12345678))
+        {
+            alert( input1.value+ "  has login sucessfully");
+          window.location.assign("https:/gunaveenkumar.github.io/bike/");
+        }
+        else{
+            alert("worng information");
+
+        }
+       
+
+        }
+
+    </script>
+</body>
+</html>
